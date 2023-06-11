@@ -34,6 +34,13 @@ async function run() {
             res.send(result);
         })
 
+        app.get('/addToy/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: new ObjectId(id) }
+            const result = await toyCollection.findOne(query);
+            res.send(result);
+        })
+
         app.post('/addToy', async (req, res) => {
             const newToy = req.body;
             console.log(newToy);

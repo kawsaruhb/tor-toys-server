@@ -1,0 +1,18 @@
+[
+    {
+        "id": "0",
+        "name": "All Cars"
+    },
+    {
+        "id": "1",
+        "name": "Sports Car"
+    },
+    {
+        "id": "2",
+        "name": "Mini Van"
+    },
+    {
+        "id": "3",
+        "name": "Truck"
+    }
+]

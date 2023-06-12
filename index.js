@@ -5,6 +5,9 @@ const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const app = express();
 const port = process.env.PORT || 5000;
 
+const categories = require('./data/categories.json')
+const toys = require('./data/toys.json')
+
 // middleware
 app.use(cors());
 app.use(express.json());
@@ -60,7 +63,8 @@ async function run() {
                     details: updatedToy.details
                 }
             }
-            const result = await toyCollection.updateOne( filter, toy, options)
+            const result = await toyCollection.updateOne( filter, toy, options);
+            res.send(result);
         })
 
         app.delete('/addToy/:id', async (req, res) => {
@@ -80,6 +84,10 @@ async function run() {
     }
 }
 run().catch(console.dir);
+
+app.get('/categories', (req, res) => {
+    res.send(categories)
+})
 
 
 

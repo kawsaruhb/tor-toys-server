@@ -1,0 +1,86 @@
+[
+    {
+        "_id":"6485cc26bf58a92d15ab8fb2",
+        "category_id": "1",
+        "name":"Old Maserati",
+        "quantity":"200",
+        "seller":"Amazon",
+        "email":"user1@gmail.com",
+        "category":"Sports Car",
+        "details":"Sport and Luxury",
+        "price":"10",
+        "rating":"4.8",
+        "photo":"https://i.ibb.co/Z662NgP/alex-zabavsky-WCQKa-C2ffjs-unsplash.jpg"
+    },
+
+    {
+        "_id":"6485ccddbf58a92d15ab8fb3",
+        "category_id": "1",
+        "name":"Ferrari Red",
+        "quantity":"80",
+        "seller":"Alibaba",
+        "email":"user2@gmail.com",
+        "category":"Sports Car",
+        "details":"Speed Star",
+        "price":"7",
+        "rating":"4.8",
+        "photo":"https://i.ibb.co/bQVn4P6/pexels-pixabay-35964.jpg"
+    },
+
+    {
+        "_id":"6485cd91bf58a92d15ab8fb4",
+        "category_id": "2",
+        "name":"Vanity Van",
+        "quantity":"120",
+        "seller":"Walmart",
+        "email":"user3@gmail.com",
+        "category":"Mini Van",
+        "details":"Compact Cute Van",
+        "price":"4",
+        "rating":"4.5",
+        "photo":"https://i.ibb.co/pKmyZbQ/pexels-revac-film-s-photography-54278.jpg"
+    },
+
+    {
+        "_id":"6485cfc0bf58a92d15ab8fb5",
+        "category_id": "2",
+        "name":"Hot Wheel",
+        "quantity":"90",
+        "seller":"Flipcart",
+        "email":"user4@gmail.com",
+        "category":"Mini Van",
+        "details":"Suicide Squad Toy",
+        "price":"6",
+        "rating":"4.5",
+        "photo":"https://i.ibb.co/hKBcPdr/josue-montoya-1obz8-Kvpj-MM-unsplash.jpg"
+    },
+
+    {
+        "_id":"6485d08abf58a92d15ab8fb6",
+        "category_id": "3",
+        "name":"Monster Truck",
+        "quantity":"120",
+        "seller":"Ebay",
+        "email":"user5@gmail.com",
+        "category":"Truck",
+        "details":"Most Popular Truck",
+        "price":"8",
+        "rating":"4.9",
+        "photo":"https://i.ibb.co/S09BMGZ/pexels-polesie-toys-4491761.jpg"
+    },
+
+    {
+        "_id":"6485d16dbf58a92d15ab8fb7",
+        "category_id": "3",
+        "name":"Mud Beku",
+        "quantity":"130",
+        "seller":"AliExpress",
+        "email":"user6@gmail.com",
+        "category":"Truck",
+        "details":"Monster Beku Truck ",
+        "price":"8",
+        "rating":"4.6",
+        "photo":"https://i.ibb.co/VSRJWFL/gabriel-vasiliu-q-Hv-Yb5xl-QVY-unsplash.jpg"
+    }
+
+]

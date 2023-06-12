@@ -89,7 +89,9 @@ app.get('/categories', (req, res) => {
     res.send(categories)
 })
 
-
+app.get('/toys', (req, res) => {
+    res.send(toys)
+})
 
 app.get('/', (req, res) => {
     res.send('toy server is running')
